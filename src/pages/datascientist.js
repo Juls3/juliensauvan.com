@@ -63,8 +63,8 @@ const Generic = (props) => (
     <dd>
         <p><a href="https://www.udemy.com/certificate/UC-3750CEIW/">Spark and Python for Big Data </a></p>
     </dd></dl><ul className="actions">
-        <li><a href="#" className="button special">Download my resume</a></li>
-        <li><a href="#footer" className="button">Contact me</a></li>
+        {/*<li><a href="#" className="button special">Download my resume</a></li>*/}
+        <li><a href="#contact" className="button">Contact me</a></li>
     </ul>
     <br />
                  </div>
