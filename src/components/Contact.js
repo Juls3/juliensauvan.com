@@ -1,4 +1,5 @@
 import React from 'react'
+import { Timeline } from 'react-twitter-widgets'
 
 const Contact = (props) => (
     <section id="contact">
@@ -24,7 +25,36 @@ const Contact = (props) => (
                     </ul>
                 </form>
             </section>
-            <section>
+            <section className="split">
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-user"></span>
+                        <h3>Information</h3>
+                        <p>Julien Sauvan
+                        <br />
+                        Data Scientist Consultant @ <a href="https://www.capgemini.com/service/invent/">Capgemini Invent</a></p>
+                    </div>
+                </section>
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-twitter"></span>
+                        <h3>Tweets</h3>
+
+                    </div>
+                    <Timeline
+                      dataSource={{
+                        sourceType: 'profile',
+                        screenName: 'juliensauvan'
+                      }}
+                      options={{
+                        username: 'JulienSauvan',
+                        height: '300',
+                        theme:'dark',
+                      }}
+                      onLoad={() => console.log('Timeline is loaded!')}
+                    />
+                </section>
+
 
             </section>
         </div>
