@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="two">
-            
+
           </section>
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
@@ -45,7 +45,7 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Blog</h3>
-                  <p>articles about data science</p>
+                  <p>articles about data science, <br />artificial intelligence and machine learning</p>
                 </header>
               </Link>
             </article>
@@ -79,11 +79,11 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Photography</h3>
-                 
+
                 </header>
               </a>
             </article>
-            
+
           </section>
 
 
@@ -94,5 +94,3 @@ class HomeIndex extends React.Component {
 }
 
 export default HomeIndex
-
-

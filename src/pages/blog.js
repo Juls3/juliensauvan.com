@@ -8,9 +8,9 @@ import Layout from '../components/layout'
 import pic11 from '../assets/images/pic11.jpg'
 
 
-const IndexPage = 
+const IndexPage =
 
-  
+
 ({
   data: {
     allMarkdownRemark: { edges },
@@ -23,16 +23,17 @@ const IndexPage =
   return <Layout>
     <Helmet>
       <title>Julien Sauvan - Blog</title>
-      <meta name="blog" content="Generic Page" />
+      <meta name="blog" content="Blog of Julien Sauvan, Data Scientist" />
     </Helmet>
      <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
                         <h1>Blog</h1>
+                        <h2> Work in progress</h2>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <div><h4>{Posts}</h4></div>
+
+                    {/*<div><h4>{Posts}</h4></div>*/}
                 </div>
             </section>
         </div>

@@ -17,12 +17,12 @@
 			> :nth-child(2n - 1) {
 				@include padding(4em, 0, (0, 3em, 0, 0));
 				border-right: solid 1px _palette(border);
-				width: 100%;
+				width: 60%;
 			}
 
 			> :nth-child(2n) {
 				padding-left: 1em;
-				width: 0%;
+				width: 40%;
 			}
 
 			> .split {

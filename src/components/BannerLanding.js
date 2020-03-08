@@ -8,7 +8,7 @@ const BannerLanding = (props) => (
             </header>
             <div className="content">
                 <p>Data science portfolio<br />
-                </p>
+                Machine Learning & Data storytelling projects</p>
             </div>
         </div>
     </section>

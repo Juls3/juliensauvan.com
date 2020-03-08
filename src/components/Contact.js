@@ -3,7 +3,8 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+
+            <section><h2> Feel free to contact me</h2>
                 <form method="post" action="https://formspree.io/xyyjaojn">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -23,7 +24,9 @@ const Contact = (props) => (
                     </ul>
                 </form>
             </section>
-            
+            <section>
+
+            </section>
         </div>
     </section>
 )

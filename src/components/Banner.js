@@ -26,10 +26,10 @@ const Banner = props => (
       <div className="content">
         <p>
           I'm a french Data Scientist working in Paris.
-          <br /> 
-          I help to deliver values and insights from data using machine learning. 
           <br />
-          I work on several projects in healthcare, industry, public sector and sustainability. 
+          I help to deliver values and insights from data using machine learning.
+          <br />
+          I work on several projects in healthcare, industry, public sector and sustainability.
           <br />
           My main interests are Computer Vision, Reinforcement Learning and more broadly Machine Learning with a focus on models' interpretability.
   <br />
@@ -39,8 +39,8 @@ Member of the <a href="https://www.capgemini.com/fr-fr/cas-client/ia-traumatrix/
 
         <ul className="actions">
           <li>
-            <a href="/blog" name="Check my blog" className="button next scrolly">
-              Check my blog
+            <a href="/projects" name="Check my projects" className="button next scrolly">
+              Check my projects
             </a>
           </li>
         </ul>
