@@ -1,5 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import { graphql } from "gatsby"
+import PostLink from "../components/post-link"
 import Helmet from 'react-helmet'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -10,12 +12,18 @@ import pic06 from '../assets/images/pic06.jpg'
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
 
+
+
+
+
+
 class HomeIndex extends React.Component {
+
   render() {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Julien Sauvan - Data Scientist"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -25,28 +33,66 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
+          <section id="two">
+            <div className="inner">
+              <header className="major">
+                <h2>Welcome on my Internet space</h2>
+              </header>
+              <ul className="icons">
+        <li>
+          <a href="https://twitter.com/JulienSauvan" aria-label="Twitter" className="icon alt fa-twitter">
+            <span className="label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Juls3" aria-label="GitHub" className="icon alt fa-github">
+            <span className="label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/julien-sauvan-b5a40982/" aria-label="LinkedIn" className="icon alt fa-linkedin">
+            <span className="label">LinkedIn</span>
+          </a>
+        </li>
+      </ul>
+              <p>
+               You'll find articles about data science, some projects I've worked on, and photography. Feel free to reach me !
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link
+                    aria-label="Link to Landing Page"
+                    to="/landing"
+                    className="button next"
+                  >
+                    Check my projects
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </section>
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <Link
                 aria-label="Link to Landing Page"
-                to="/landing"
+                to="/blog"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Aliquam</h3>
-                  <p>Ipsum dolor sit amet</p>
+                  <h3>Blog</h3>
+                  <p>articles about data science</p>
                 </header>
               </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <Link
                 aria-label="Link to Landing Page"
-                to="/landing"
+                to="/datascientist"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Tempus</h3>
-                  <p>feugiat amet tempus</p>
+                  <h3>Data Scientist</h3>
+                  <p>who am I ?</p>
                 </header>
               </Link>
             </article>
@@ -57,75 +103,25 @@ class HomeIndex extends React.Component {
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Magna</h3>
-                  <p>Lorem etiam nullam</p>
+                  <h3>Projects</h3>
+                  <p>data science & machine learning portfolio</p>
                 </header>
               </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
+              <a href="https://500px.com/juliensauvan"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Ipsum</h3>
-                  <p>Nisl sed aliquam</p>
+                  <h3>Photography</h3>
+                 
                 </header>
-              </Link>
+              </a>
             </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
-                <header className="major">
-                  <h3>Consequat</h3>
-                  <p>Ipsum dolor sit amet</p>
-                </header>
-              </Link>
-            </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
-              <Link
-                aria-label="Link to Landing Page"
-                to="/landing"
-                className="link primary"
-              >
-                <header className="major">
-                  <h3>Etiam</h3>
-                  <p>Feugiat amet tempus</p>
-                </header>
-              </Link>
-            </article>
+            
           </section>
-          <section id="two">
-            <div className="inner">
-              <header className="major">
-                <h2>Massa libero</h2>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link
-                    aria-label="Link to Landing Page"
-                    to="/landing"
-                    className="button next"
-                  >
-                    Get Started
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </section>
+
+
         </div>
       </Layout>
     )
@@ -133,3 +129,5 @@ class HomeIndex extends React.Component {
 }
 
 export default HomeIndex
+
+

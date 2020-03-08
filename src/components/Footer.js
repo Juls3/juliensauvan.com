@@ -5,33 +5,23 @@ const Footer = props => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" aria-label="Twitter" className="icon alt fa-twitter">
+          <a href="https://twitter.com/JulienSauvan" aria-label="Twitter" className="icon alt fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="Facebook" className="icon alt fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Instagram" className="icon alt fa-instagram">
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="GitHub" className="icon alt fa-github">
+          <a href="https://github.com/Juls3" aria-label="GitHub" className="icon alt fa-github">
             <span className="label">GitHub</span>
           </a>
         </li>
         <li>
-          <a href="#" aria-label="LinkedIn" className="icon alt fa-linkedin">
+          <a href="https://www.linkedin.com/in/julien-sauvan-b5a40982/" aria-label="LinkedIn" className="icon alt fa-linkedin">
             <span className="label">LinkedIn</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Untitled</li>
+        <li>&copy; Julien Sauvan</li>
         <li>
           Design: <a href="https://html5up.net">HTML5 UP</a>
         </li>

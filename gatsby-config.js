@@ -2,9 +2,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme - Forty',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Theme based on Forty by HTML5 UP',
+    title: 'Julien Sauvan',
+    author: 'Julien Sauvan',
+    description: 'Personal website',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -26,6 +26,22 @@ module.exports = {
         path: path.join(__dirname, `src`, `pages`),
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `md-pages`,
+        path: `${__dirname}/src/md-pages/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+        ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
