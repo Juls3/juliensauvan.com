@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form method="post" action="https://formspree.io/xyyjaojn">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -23,24 +23,7 @@ const Contact = (props) => (
                     </ul>
                 </form>
             </section>
-            <section className="split">
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a href="#">sauvan.julien@gmail.com</a>
-                    </div>
-                </section>
-                
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Location</h3>
-                        <span>
-                        Paris, France</span>
-                    </div>
-                </section>
-            </section>
+            
         </div>
     </section>
 )

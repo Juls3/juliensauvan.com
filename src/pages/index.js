@@ -56,13 +56,13 @@ class HomeIndex extends React.Component {
         </li>
       </ul>
               <p>
-               You'll find articles about data science, some projects I've worked on, and photography. Feel free to reach me !
+               You'll find articles about data science on my blog abd my data science portfolio. I'm also a photographer on my spare time. Feel free to reach me !
               </p>
               <ul className="actions">
                 <li>
                   <Link
                     aria-label="Link to Landing Page"
-                    to="/landing"
+                    to="/projects"
                     className="button next"
                   >
                     Check my projects
@@ -92,14 +92,14 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Data Scientist</h3>
-                  <p>who am I ?</p>
+                  <p>background and experiences</p>
                 </header>
               </Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <Link
                 aria-label="Link to Landing Page"
-                to="/landing"
+                to="/projects"
                 className="link primary"
               >
                 <header className="major">
