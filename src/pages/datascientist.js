@@ -56,6 +56,8 @@ const Generic = (props) => (
         <br />
         <a href="https://www.coursera.org/account/accomplishments/verify/8MKSN9KBF4PL">Structuring Machine Learning Projects</a>
         <br />
+        <a href="https://www.coursera.org/account/accomplishments/verify/6UKEJ7UM48ZK">Fundamentals of Reinforcement Learning</a>
+        <br />
         <a href="https://www.coursera.org/account/accomplishments/certificate/T7RMPAJXDE6R">Introduction to Neurohacking in R</a>
         <br /></p>
     </dd>
