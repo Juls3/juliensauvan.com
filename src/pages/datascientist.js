@@ -35,6 +35,9 @@ const Generic = (props) => (
 
 
 <h4>Data Scientist Consultant since December 2018 @ <u><a href="https://www.capgemini.com/service/invent/"> Capgemini Invent</a></u></h4>
+    
+<li>French regional health agency<dl><dd> Prediction of hospital beds occupancy rates to manage changes in activity volume regarding the Covid-19 crisis (Markov chains and time series modelling).<br />
+<code>Python (Flask, Dash, pandas, Prophet, sk-learn).</code></dd></dl></li>
 
 <li>Member of the TrauMatrix project <dl><dd>Development of an algorithm to predict early stages of intracranial hypertension using a new medical classification of intracranial lesions - paper soon to be published. Development of a deep learning demonstrator detecting intracranial haemorrhage in CT-Scans with an interpretablity layer.<br />
  <code>Python (pandas, Flask, PyTorch), R</code></dd></dl></li>
@@ -61,6 +64,8 @@ const Generic = (props) => (
         <a href="https://www.coursera.org/account/accomplishments/certificate/T7RMPAJXDE6R">Introduction to Neurohacking in R</a>
         <br />
         <a href="https://www.coursera.org/account/accomplishments/certificate/77YHPPTBSFAT">Drug Development</a>
+        <br />
+        <a href="https://www.coursera.org/account/accomplishments/certificate/FDYSW7PWTLSL">AI for Medical Treatment</a>
         <br /></p>
     </dd>
     <dt>Udemy</dt>
