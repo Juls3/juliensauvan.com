@@ -31,7 +31,7 @@ const Generic = (props) => (
                                         <ul>
                                             <li>Graduated from <a href="https://www.ensae.fr/">ENSAE Paris</a> (Msc in Data Science, economist & statistical engineer) in 2018</li>
                                             <li>Entrepreneurial student experience during my final year of studies</li>
-                                            <li>Attended the <a href="">Oxford Machine Learning Summer School 2020</a> covering various fields in the machine learning domain such as Gaussian Processes, Reinforcement Learning, Computer Vision and XAI, etc in detail, with an emphasis on healthcare applications.</li>
+                                            <li>Attended the <a href="https://www.oxfordml.school/">Oxford Machine Learning Summer School 2020</a> covering various fields in the machine learning domain such as Gaussian Processes, Reinforcement Learning, Computer Vision and XAI, etc in detail, with an emphasis on healthcare applications.</li>
                                         </ul>
 
 
