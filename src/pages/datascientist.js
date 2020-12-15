@@ -24,19 +24,19 @@ const Generic = (props) => (
                     <br />
                     I work on several projects in healthcare, industry, public sector and sustainability.
                     <br />
-                    My main interests are Computer Vision, Reinforcement Learning and more broadly Machine Learning with a focus on models' interpretability.
+                    My main interests are Causal ML, Reinforcement Learning and more broadly Machine Learning with a focus on models' interpretability. I also like Computer Vision and GANs.
                     <br /><br />
 
                     <h4>Studies</h4>
                                         <ul>
                                             <li>Graduated from <a href="https://www.ensae.fr/">ENSAE Paris</a> (Msc in Data Science, economist & statistical engineer) in 2018</li>
                                             <li>Entrepreneurial student experience during my final year of studies</li>
-                                            <li>Attended the <a href="https://www.oxfordml.school/">Oxford Machine Learning Summer School 2020</a> covering various fields in the machine learning domain such as Gaussian Processes, Reinforcement Learning, Computer Vision and XAI, etc in detail, with an emphasis on healthcare applications.</li>
+                                            <li>Attended the <a href="https://www.oxfordml.school/oxml2020">Oxford Machine Learning Summer School 2020</a> covering various fields in the machine learning domain such as Gaussian Processes, Reinforcement Learning, Computer Vision and XAI, etc in detail, with an emphasis on healthcare applications.</li>
                                         </ul>
 
 
 <h4>Data Scientist Consultant since December 2018 @ <u><a href="https://www.capgemini.com/service/invent/"> Capgemini Invent</a></u></h4>
-    
+
 <li>French regional health agency<dl><dd> Prediction of hospital beds occupancy rates to manage changes in activity volume regarding the Covid-19 crisis (Markov chains and time series modelling).<br />
 <code>Python (Flask, Dash, pandas, Prophet, sk-learn).</code></dd></dl></li>
 
@@ -67,6 +67,12 @@ const Generic = (props) => (
         <a href="https://www.coursera.org/account/accomplishments/certificate/77YHPPTBSFAT">Drug Development</a>
         <br />
         <a href="https://www.coursera.org/account/accomplishments/certificate/FDYSW7PWTLSL">AI for Medical Treatment</a>
+        <br />
+        <a href="https://www.coursera.org/account/accomplishments/certificate/KG47YQGVGSL9">Build Basic Generative Adversarial Networks</a>
+        <br />
+        <a href="https://www.coursera.org/account/accomplishments/certificate/C4ADAELKEYVV">Apply Generative Adversarial Networks</a>
+        <br />
+        <a href="https://www.coursera.org/account/accomplishments/certificate/SVN5SKF6AEGM">Build Better Generative Adversarial Networks</a>
         <br /></p>
     </dd>
     <dt>Udemy</dt>
