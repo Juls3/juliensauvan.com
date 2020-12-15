@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import pic12 from '../assets/images/pic12.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -22,6 +23,26 @@ const Landing = (props) => (
 
             </section>
             <section id="two" className="spotlights">
+                <section>
+                    <a href="https://youtu.be/lQ1tcI-dOng?t=2899" className="image">
+                        <img src={pic12} alt="" />
+                    </a>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>STEP project</h3>
+                                <h4>Anticipate and monitor beds capacities and Covid-19 crisis trends in Île-de-France </h4>
+                            </header>
+                            <p>Innovative collaboration with a French regional health agency, on the topic of prediction of hospital beds occupancy rates to manage changes in activity volume regarding the Covid-19 crisis using Markov chains and time series modeling.
+                            <br />
+                            This work was presented at the <a href="https://aiforgood.itu.int/">AI for Good Global Summit</a> at the Ethical AI - AI4Health session.
+                            </p>
+                            <ul className="actions">
+                                <li><a href="https://youtu.be/lQ1tcI-dOng?t=2899" className="button">Watch the project presentation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <a href="https://www.capgemini.com/fr-fr/cas-client/ia-traumatrix/" className="image">
                         <img src={pic08} alt="" />
